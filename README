@@ -1,0 +1,31 @@
+Titanium Utils
+==============
+
+This is a collection of JavaScript libs that are useful when developing titanium mobile applications.
+
+
+Files
+-----
+
+lib/util.js - some methods taken from jQuery with others added
+
+lib/factory.js - make using Ti.UI a little easier
+
+lib/loader.js - loads the above libs and creates instances of them.
+
+
+Patches
+-------
+Patches will be accepted if they do not change existing behaviour,
+ideally people will overload custom settings (e.g. color method)
+rather than changing the core libs.
+
+YourPackage.prototype = new TuFox();
+
+Todo
+----
+Move everything into a Tu. namespace
+
+Thanks
+------
+Thanks to http://www.foxtons.co.uk/ for allowing my to open source this
